@@ -2,6 +2,10 @@
 
 **Learn anything. Find your way there.**
 
+🌐 **Live Demo:** https://knowledge-gps.vercel.app/
+
+💻 **GitHub:** https://github.com/jotacalderon94/knowledge-gps
+
 ## The Problem
 
 Have you ever tried learning something new, only to discover that you need to understand several other concepts first?
@@ -77,6 +81,8 @@ GEMINI_MODEL=gemini-2.5-flash
 ## Validation
 
 The project passed its automated tests, TypeScript checks, and production build during development.
+
+Deployed to production using Vercel.
 
 ## Future Vision
 
