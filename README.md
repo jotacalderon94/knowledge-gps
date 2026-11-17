@@ -89,3 +89,6 @@ Deployed to production using Vercel.
 We envision Knowledge GPS as a universal learning navigation system that helps people discover the shortest meaningful path between what they know today and what they want to learn tomorrow.
 
 **Stop getting lost in learning. Start navigating.**
+## Generation quotas
+
+Public generation uses shared Upstash Redis fixed-window quotas: 5 requests per IP per hour and 100 requests globally per day. Set `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` in `.env.local` (or your Vercel project environment). Generation fails closed if shared storage is not configured or available. The built-in Machine Learning sample does not use Gemini or Redis.
